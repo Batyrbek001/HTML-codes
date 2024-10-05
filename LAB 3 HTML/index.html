@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Raiymbek's Personal CV</title>
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center p-3">
+        <h1>Batyrbek Raiymbek</h1>
+        <p>"Director of the company"</p>
+        <p>"All you need is motivation, dream, and passion"</p>
+    </header>
+
+    <section id="bio" class="container my-5">
+        <h2>About Me</h2>
+        <p>I am Batyrbek Raiymbek, 25 y.o., graduated from KBTU Bachelor's degree and Harvard Master's degree. As a
+            student, I started working at 19 as a sales consultant in several stores, a salesman in a jewelry company,
+            and after the 3rd year in practice, I started working in a large IT company. So I grew up from a project
+            manager to the head of my IT department and Google invited me to lead the same position globally. Now, I
+            have a mission to help my country in this field and plan to open my own business empire.</p>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-12">
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100">C++</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100">Python</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100">HTML/CSS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container my-5">
+        <h2>Experience</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Head of IT Department - Google</h5>
+                <p>Managed IT operations globally and ensured the efficiency of multiple teams in technology development.</p>
+            </li>
+            <li class="list-group-item">
+                <h5>Project Manager - XYZ IT Company</h5>
+                <p>Coordinated teams to execute technology-driven solutions and achieved goals in record time.</p>
+            </li>
+            <li class="list-group-item">
+                <h5>Sales Consultant - Jewelry Company</h5>
+                <p>Worked in sales and improved customer satisfaction while developing effective communication strategies.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="education" class="container my-5">
+        <h2>Education</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Harvard University - Master's Degree in Computer Science</h5>
+                <p>Graduated with honors and developed multiple research projects in AI and machine learning.</p>
+            </li>
+            <li class="list-group-item">
+                <h5>KBTU - Bachelor's Degree in Information Technology</h5>
+                <p>Excelled in courses related to software development and network architecture.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\batyr\OneDrive\Desktop\HTML\LAB 3 HTML\i (3).webp" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Development Tool</h5>
+                        <p class="card-text">Developed a tool to assist in AI-driven software development.</p>
+                        <a href="#" class="btn btn-dark">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\batyr\OneDrive\Desktop\HTML\LAB 3 HTML\i (4).webp" class="card-img-top" alt="Training Tracker">
+                    <div class="card-body">
+                        <h5 class="card-title">Training Tracker</h5>
+                        <p class="card-text">Developed a web application for athletes to track their workouts and monitor progress.</p>
+                        <a href="#" class="btn btn-dark">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+        <div class="mt-4">
+            <a href="https://www.linkedin.com/" class="me-3"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Batyrbek001/HTML-codes" class="me-3"><i class="bi bi-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Batyrbek Raiymbek</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
