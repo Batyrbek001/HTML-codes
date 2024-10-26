@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100vh;
+    background-color: antiquewhite;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .teal {
+    background-color: teal;
+  }
+  
+  .blue {
+    background-color: darkblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  #notes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  #notes button {
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000;
+    min-width: 60px; 
+    cursor: pointer;
+    outline: none;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  #notes button:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+
+  @media (min-width: 600px) {
+    #notes {
+        flex-direction: row;
+    } 
+    #notes button {
+        width: 80%; 
+        margin: 5px auto; 
+    }
+}
