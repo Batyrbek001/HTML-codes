@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right,#9a1d86, #1595be);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.track-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+.track-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.track-item:last-child {
+    border-bottom: none;
+}
+
+.track-item:hover {
+    background-color: #f0f0f0;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+.details {
+    text-align: center;
+}
+
+.track-art {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.track-name, .track-artist {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons div {
+    margin: 0 10px;
+    cursor: pointer;
+}
