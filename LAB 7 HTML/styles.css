@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1d;
+    color: #f4f4f9;
+    text-align: center;
+}
+
+div {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+img#hero-avatar {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4);
+}
+
+h1#hero-title {
+    font-size: 2rem;
+    color: #f0131e;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-appearance {
+    background-color: #0c1b33;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    color: #ffd700;
+}
+
+h2#hero-description {
+    font-size: 1.2rem;
+    color: #ffd700;
+    margin: 0;
+}
